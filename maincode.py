@@ -43,7 +43,7 @@ class CustomFileSystemHandler(FileSystemEventHandler):
             else:
                 fail_reviews.append(review)
 
-        logger.debug("Here is your Senior Engineer's Code Review:\n\n")
+        logger.debug("Here is your Code Review:\n\n")
 
         if len(pass_reviews) > 0:
             logger.info("--- Files Passed ---\n")
