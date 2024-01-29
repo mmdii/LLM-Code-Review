@@ -126,7 +126,7 @@ class SeniorEngineer:
         observer = watcher.watch(watch_handler)
         os.system('cls' if os.name == 'nt' else 'clear')
 
-        print("Running 10x Senior Engineer...")
+        print("Running LLAMA Code Reviewer...")
 
         try:
             while True:
